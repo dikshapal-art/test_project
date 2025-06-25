@@ -1,0 +1,11 @@
+@media (max-width:1200px) {
+    .sec_inside{
+        text-align: center;
+    }
+}
+
+@media (max-width:992px) {
+    .section4 img{
+        display: none;
+    }
+}

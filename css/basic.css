@@ -1,0 +1,157 @@
+@import url("./query.css");
+
+body {
+    animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+    from{ transform: translateY(-50px);}
+    to { transform: translateY(0px);}
+}
+
+.grayscale {
+    padding: 0px 0px;
+    background-color: #212741;
+    z-index: 2;
+    scroll-behavior: smooth;
+    transition: all ease-in-out;
+    height: 8vh;
+}
+
+.grayscale .navbar-brand img{
+    height: 5vh;
+    transition: 2s all ease-in-out;
+}
+
+.navbar{
+    position: fixed;
+    /* padding: 20px 0px; */
+}
+
+.nav-link{
+    margin-inline: 15px;
+    font-size: 1.1rem;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.8); /* White border */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Makes the icon white */
+}
+
+.section2{
+    padding: 280px 0px;
+    background-image: url(../images/slide-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec_inside{
+    /* border: 3px solid white; */
+    color: white;
+}
+
+.sec_inside h1 b{
+    color: #ff511a;
+}
+
+.sec_inside h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 30px 0px;
+}
+
+.sec_inside p{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #007bff; */
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 0px 30px;
+}
+
+.icon-box i{
+    color: #43ba7f;
+    font-size: 3.5rem;
+}
+
+.temp{
+    box-shadow: 1px 2px 5px 1px rgba(87, 86, 86, 0.495);
+}
+
+.mb-1{
+    padding: 10px 0px;
+}
+
+.temp:hover .icon-box i{
+    transform: translateY(10px);
+}
+
+.section3{
+    background-image: url(../images/cta-bg.jpg);
+    padding: 70px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table thead tr th{
+    color:#212741;
+    padding: 20px 0px;
+}
+
+.table tbody tr th{
+    padding: 20px 0px;
+}
+
+.section4{
+    background-image: url(../images/calculator-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    max-width: 600px;
+    background-color: transparent;
+}
+
+.form-container input{
+    background-color: transparent;
+}
+
+.form-container select{
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-item{
+    height: 30vh;
+}
+
+.grid-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section6{
+    background-color: #212741;
+    padding: 30px;
+    width: 100%;
+}
